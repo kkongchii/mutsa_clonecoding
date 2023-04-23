@@ -1,0 +1,281 @@
+body{
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+}
+
+nav{
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+/* nav::after{
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+.nav-logo{
+    font-size: 20px;
+    float: left;
+    margin-left: 300px;
+}
+
+.nav-menu{
+    font-size: 20px;
+    float: right;
+    margin-right: 300px;
+}
+
+.nav-btn{
+    list-style-type: none;
+    margin: 0px;
+    color: white;
+}
+
+ul.nav-btn >li{
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.intro{
+    background-image: url("./background.png");
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    transform: translate(-50%, -50%);
+    clear: both;
+    font-size: 45px;
+    font-weight: bold;
+    float: left;
+}
+
+.main > .title1{
+    float: left;
+}
+
+.main > .title2{
+    margin-left: 10px;
+    float: left;
+    color: orange;
+}
+
+.about{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    line-height: 170%;
+    font-size: 20px;
+    font-weight: bold;
+    /* float: left; */
+}
+
+.curriculum{
+    color: white;
+    text-align: center;
+    /* vertical-align: middle; */
+}
+
+.content_title{
+    height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+.content_text{
+    height: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.course_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.box{
+    width: 400px;
+    height: 230px;
+    background-color: #333333;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.course_title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.course_detail{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.timeline{
+    color: white;
+    text-align: left;
+}
+
+.timeline_title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.timeline_bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.timeline_img{
+    background-color: #333333;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.circle{
+    float: left;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.timeline_text{
+    line-height: 200%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.projects{
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.project_bar{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.project{
+    background-color: #333333;
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+.recruiting{
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.recruit_box{
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    width: 70%;
+    height: 330px;
+    border: 1px solid white;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+
+.now{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    height: 30px;
+    width: 50px;
+    margin: 30px 0px 0px 30px;
+}
+
+.recruit_title{
+    font-size: 40px;
+    font-weight: bold;
+    height: 100px;
+    margin: 30px 0px 30px 30px;
+}
+
+.recruit_text{
+    font-size: 20px;
+    font-weight: 550;
+    margin: 20px 0px 0px 30px;
+}
+
+#recruit_btn{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-size: 25px;
+    font-weight: 650;
+    border-radius: 30px;
+    background-color: #ED7F30;
+    color: black;
+    width: 30%;
+    height: 80px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+.sns{
+    margin: 100px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.snsbtn{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    background-color: #333333;
+    border-radius: 50%;
+}
