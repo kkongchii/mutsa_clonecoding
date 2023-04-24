@@ -5,7 +5,7 @@
 html과 css만으로 홍익대학교 멋쟁이사자처럼 외관 따라하기
 
 ## commit
-04/23 first commit
+04/23 first commit<br>
 04/24 모니터 비율이 다른 환경에서 메인 이미지 잘리는 현상 수정 contain->cover(contain은 가로세로 중 먼저 채워지는 쪽에 맞춤 cover는 비율을 유지하며 꽉 채움)
 
 ## 수정해야 할 점
