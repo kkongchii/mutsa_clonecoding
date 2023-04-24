@@ -53,7 +53,8 @@ a{
 .intro{
     background-image: url("./background.png");
     height: 700px;
-    background-size: contain;
+    /* width: 100%; */
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
